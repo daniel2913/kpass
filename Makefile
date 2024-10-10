@@ -3,4 +3,4 @@ update:
 pass_decode:
 	dotenv -f .env run ./dec.sh db.bin db.kdbx
 stdin_decode:
-	.dotenv -f .env run /dec_stdin.sh db.bin db.kdbx
+	dotenv -f .env run ./dec_stdin.sh db.bin db.kdbx
